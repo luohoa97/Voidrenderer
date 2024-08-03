@@ -1,0 +1,23 @@
+[package]
+name = "Voidrenderer"
+version = "0.1.0"
+authors = ["luohoa97, luohoa97@protonmail.com"]
+edition = "2021"
+
+[dependencies]
+gtk = "*"
+webkit2gtk = "*"
+
+[dev-dependencies]
+gtk = "*"
+webkit2gtk = "*"
+
+[lib]
+
+[[bin]]
+name = "Voidrenderer"
+path = "src/main.rs"
+
+[package.metadata.docs.rs]
+all-features = true
+
